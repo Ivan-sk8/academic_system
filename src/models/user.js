@@ -19,3 +19,5 @@ const userSchema = new mongoose.Schema({
 },{
     timestamps: true, //para que se creen los campos createdAt y updatedAt
 });
+
+export default mongoose.model('User', userSchema);
