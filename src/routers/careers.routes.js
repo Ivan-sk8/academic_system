@@ -6,3 +6,7 @@ const router = Router();
 router.get("/careers", authRequired, (req, res) => res.send('careers'))
 
 export default router;
+
+
+
+// aqui iran las rutas de las funciones que crearemos en el controlador de carreras
