@@ -4,7 +4,7 @@ import { authRequired } from "../middlewares/validateToken.js";
 const router = Router();
 
 router.get("/careers", authRequired, (req, res) => res.send('careers'))
-
+router.get("/careers/:id", authRequired, (req, res) => res.send('career by id'))
 export default router;
 
 
